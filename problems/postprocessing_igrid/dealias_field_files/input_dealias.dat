@@ -1,0 +1,16 @@
+&INPUT
+ ! Replace these paths and dimensions with those of the original simulation.
+ input_file = './Run09_comp_budget0_term21_t064000_n003932.s3D'
+ output_file = './filtered/Run09_comp_budget0_term21_t064000_n003932.s3D'
+ nx = 1600
+ ny = 256
+ nz = 128
+ Lx = 507.936507936508
+ Ly = 100.0
+ Lz = 50.0
+ prow = 0
+ pcol = 0
+ PeriodicInZ = .false.
+ dealiasFact = 0.6666666666666667
+ dealiasType = 0
+/
